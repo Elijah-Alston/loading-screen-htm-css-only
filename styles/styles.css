@@ -75,7 +75,7 @@ background-color: #ff0000;
 height: 100px;
 width: 0%;
 
-animation: load2 5s linear infinite;
+animation: load2 4.5s linear infinite;
 }
 
 .loadtext{
@@ -85,7 +85,7 @@ animation: load2 5s linear infinite;
 }
 
 @keyframes load2 { 
-    25%{ height 100px; width: 25%}
+    25%{  width: 25%}
   
 
     100%{ width: 100%}
