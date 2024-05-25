@@ -23,9 +23,15 @@ background-color: #2b2727;
 color: white;
 font-size : 2.5em;
 }
+.wrapper{
+
+    margin-top: auto;
+    text-align: center;
+    padding: 50px;
+}
 
 .load_ani{
-margin-top: 200px;
+margin: 100px;
 display: inline-block;
 color: green;
 
@@ -45,14 +51,43 @@ animation: load1 600ms  infinite linear;
 
 }
       
-.sec1{
+.sec1 , .sec2{
+    margin-top: 15px;
 padding: 25px;
 border: solid 5px rgb(119, 103, 103);
     background-color: #38353586;
 }
-.wrapper{
 
-        margin-top: auto;
-        text-align: center;
-        padding: 50px;
+
+.load_ani2{
+    margin: 50px;
+    display: inline-block;
+    width:25em;
+    height: 50px;
+    
+    border: solid 2px grey; 
+    overflow-y: hidden;
+
+}
+.loadbar{
+
+background-color: #ff0000;
+height: 100px;
+width: 0%;
+
+animation: load2 5s linear infinite;
+}
+
+.loadtext{
+
+    position: absolute;
+   right: 900px;
+}
+
+@keyframes load2 { 
+    25%{ height 100px; width: 25%}
+  
+
+    100%{ width: 100%}
+    
 }
